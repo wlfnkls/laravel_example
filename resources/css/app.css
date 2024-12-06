@@ -1,0 +1,40 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+canvas {
+    max-width: 600px;
+    max-height: 500px;
+}
+
+canvas#myDonut {
+    max-height: 450px;
+    max-width: 200px;
+}
+
+input[type="radio"] {
+    outline: none;
+    outline: 0px !important;
+    -webkit-appearance:none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+
+@font-face {
+    font-family: Sen-Bold;
+    font-weight: 600;
+    src: url('../fonts/Sen-Bold.ttf');
+}
+
+@font-face {
+    font-family: Sen-ExtraBold;
+    font-weight: 900;
+    src: url('../fonts/Sen-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: Sen-Regular;
+    font-weight: 400;
+    src: url('../fonts/Sen-Regular.ttf');
+}
